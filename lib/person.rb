@@ -5,7 +5,7 @@ class Person
 
   def initialize(new_user)
     new_user.each {|key, value| self.send(("#{key}="), value)}
-  end 
-  
+  end
+
 
 end
